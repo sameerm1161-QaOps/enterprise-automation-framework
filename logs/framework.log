@@ -1,0 +1,35 @@
+2026-05-07 21:50:53 [main] INFO  core.config.ConfigManager - ConfigManager initialized for environment: dev
+2026-05-07 21:50:54 [main] INFO  listeners.TestListener - === SUITE STARTED: Smoke Suite ===
+2026-05-07 21:50:54 [main] INFO  core.base.BaseTest - === Test Suite Starting ===
+2026-05-07 21:50:54 [TestNG-test-SauceDemo UI Tests-1] INFO  core.base.BaseTest - Starting test | Browser: chrome | Headless: false
+2026-05-07 21:50:54 [TestNG-test-SauceDemo UI Tests-3] INFO  core.base.BaseTest - Starting test | Browser: chrome | Headless: false
+2026-05-07 21:50:54 [TestNG-test-SauceDemo UI Tests-2] INFO  core.base.BaseTest - Starting test | Browser: chrome | Headless: false
+2026-05-07 21:50:55 [TestNG-test-SauceDemo UI Tests-3] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 147.0.7727.117 (resolved driver for Chrome 147)
+2026-05-07 21:50:55 [TestNG-test-SauceDemo UI Tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 147.0.7727.117 (resolved driver for Chrome 147)
+2026-05-07 21:50:55 [TestNG-test-SauceDemo UI Tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 147.0.7727.117 (resolved driver for Chrome 147)
+2026-05-07 21:50:55 [TestNG-test-SauceDemo UI Tests-3] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\fazil\.cache\selenium\chromedriver\win64\147.0.7727.117\chromedriver.exe
+2026-05-07 21:50:55 [TestNG-test-SauceDemo UI Tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\fazil\.cache\selenium\chromedriver\win64\147.0.7727.117\chromedriver.exe
+2026-05-07 21:50:55 [TestNG-test-SauceDemo UI Tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\fazil\.cache\selenium\chromedriver\win64\147.0.7727.117\chromedriver.exe
+2026-05-07 21:51:00 [TestNG-test-SauceDemo UI Tests-2] INFO  listeners.TestListener - ▶ TEST START: testInvalidLogin
+2026-05-07 21:51:00 [TestNG-test-SauceDemo UI Tests-1] INFO  listeners.TestListener - ▶ TEST START: testValidLogin
+2026-05-07 21:51:00 [TestNG-test-SauceDemo UI Tests-3] INFO  listeners.TestListener - ▶ TEST START: testE2ECheckoutFlow
+2026-05-07 21:51:01 [TestNG-test-SauceDemo UI Tests-2] INFO  listeners.TestListener - ✅ TEST PASSED: testInvalidLogin
+2026-05-07 21:51:01 [TestNG-test-SauceDemo UI Tests-1] INFO  listeners.TestListener - ✅ TEST PASSED: testValidLogin
+2026-05-07 21:51:03 [TestNG-test-SauceDemo UI Tests-1] INFO  core.base.BaseTest - Driver closed for thread: 55
+2026-05-07 21:51:03 [TestNG-test-SauceDemo UI Tests-2] INFO  core.base.BaseTest - Driver closed for thread: 56
+2026-05-07 21:51:10 [TestNG-test-SauceDemo UI Tests-3] INFO  listeners.TestListener - ✅ TEST PASSED: testE2ECheckoutFlow
+2026-05-07 21:51:11 [TestNG-test-SauceDemo UI Tests-3] INFO  core.base.BaseTest - Driver closed for thread: 57
+2026-05-07 21:51:11 [TestNG-test-API Tests-1] INFO  listeners.TestListener - ▶ TEST START: testGetAllUsers
+2026-05-07 21:51:11 [TestNG-test-API Tests-2] INFO  listeners.TestListener - ▶ TEST START: testGetSingleUser
+2026-05-07 21:51:11 [TestNG-test-API Tests-3] INFO  listeners.TestListener - ▶ TEST START: testCreateUser
+2026-05-07 21:51:14 [TestNG-test-API Tests-1] INFO  listeners.TestListener - ✅ TEST PASSED: testGetAllUsers
+2026-05-07 21:51:14 [TestNG-test-API Tests-1] INFO  listeners.TestListener - ▶ TEST START: testUpdateUser
+2026-05-07 21:51:15 [TestNG-test-API Tests-2] INFO  listeners.TestListener - ✅ TEST PASSED: testGetSingleUser
+2026-05-07 21:51:15 [TestNG-test-API Tests-3] INFO  listeners.TestListener - ✅ TEST PASSED: testCreateUser
+2026-05-07 21:51:15 [TestNG-test-API Tests-2] INFO  listeners.TestListener - ▶ TEST START: testDeleteUser
+2026-05-07 21:51:15 [TestNG-test-API Tests-3] INFO  listeners.TestListener - ▶ TEST START: testGetInvalidUser
+2026-05-07 21:51:16 [TestNG-test-API Tests-1] INFO  listeners.TestListener - ✅ TEST PASSED: testUpdateUser
+2026-05-07 21:51:17 [TestNG-test-API Tests-2] INFO  listeners.TestListener - ✅ TEST PASSED: testDeleteUser
+2026-05-07 21:51:17 [TestNG-test-API Tests-3] INFO  listeners.TestListener - ✅ TEST PASSED: testGetInvalidUser
+2026-05-07 21:51:17 [main] INFO  core.base.BaseTest - === Test Suite Complete ===
+2026-05-07 21:51:17 [main] INFO  listeners.TestListener - === SUITE FINISHED: Smoke Suite ===
