@@ -1,257 +1,59 @@
-2026-05-07 22:35:10 [main] INFO  core.config.ConfigManager - ConfigManager initialized for environment: dev
-2026-05-07 22:35:10 [main] INFO  listeners.TestListener - === SUITE STARTED: Cross Browser Smoke Suite ===
-2026-05-07 22:35:10 [main] INFO  core.base.BaseTest - === Test Suite Starting ===
-2026-05-07 22:35:11 [TestNG-test-Chrome Tests-3] INFO  core.base.BaseTest - Starting test | Browser: chrome | Headless: false
-2026-05-07 22:35:11 [TestNG-test-Chrome Tests-1] INFO  core.base.BaseTest - Starting test | Browser: chrome | Headless: false
-2026-05-07 22:35:11 [TestNG-test-Chrome Tests-2] INFO  core.base.BaseTest - Starting test | Browser: chrome | Headless: false
-2026-05-07 22:35:15 [TestNG-test-Chrome Tests-3] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 147.0.7727.117 (resolved driver for Chrome 147)
-2026-05-07 22:35:15 [TestNG-test-Chrome Tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 147.0.7727.117 (resolved driver for Chrome 147)
-2026-05-07 22:35:15 [TestNG-test-Chrome Tests-3] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\fazil\.cache\selenium\chromedriver\win64\147.0.7727.117\chromedriver.exe
-2026-05-07 22:35:15 [TestNG-test-Chrome Tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\fazil\.cache\selenium\chromedriver\win64\147.0.7727.117\chromedriver.exe
-2026-05-07 22:35:15 [TestNG-test-Chrome Tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 147.0.7727.117 (resolved driver for Chrome 147)
-2026-05-07 22:35:15 [TestNG-test-Chrome Tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\fazil\.cache\selenium\chromedriver\win64\147.0.7727.117\chromedriver.exe
-2026-05-07 22:35:21 [TestNG-test-Chrome Tests-3] INFO  listeners.TestListener - ▶ TEST START: testE2ECheckoutFlow
-2026-05-07 22:35:21 [TestNG-test-Chrome Tests-1] INFO  listeners.TestListener - ▶ TEST START: testValidLogin
-2026-05-07 22:35:22 [TestNG-test-Chrome Tests-1] INFO  listeners.TestListener - ✅ TEST PASSED: testValidLogin
-2026-05-07 22:35:23 [TestNG-test-Chrome Tests-1] INFO  core.base.BaseTest - Driver closed for thread: 51
-2026-05-07 22:35:24 [TestNG-test-Chrome Tests-2] INFO  listeners.TestListener - ▶ TEST START: testInvalidLogin
-2026-05-07 22:35:25 [TestNG-test-Chrome Tests-2] INFO  listeners.TestListener - ✅ TEST PASSED: testInvalidLogin
-2026-05-07 22:35:25 [TestNG-test-Chrome Tests-2] INFO  core.base.BaseTest - Driver closed for thread: 52
-2026-05-07 22:35:31 [TestNG-test-Chrome Tests-3] INFO  listeners.TestListener - ✅ TEST PASSED: testE2ECheckoutFlow
-2026-05-07 22:35:31 [TestNG-test-Chrome Tests-3] INFO  core.base.BaseTest - Driver closed for thread: 53
-2026-05-07 22:35:31 [TestNG-test-Firefox Tests-1] INFO  core.base.BaseTest - Starting test | Browser: firefox | Headless: false
-2026-05-07 22:35:31 [TestNG-test-Firefox Tests-3] INFO  core.base.BaseTest - Starting test | Browser: firefox | Headless: false
-2026-05-07 22:35:31 [TestNG-test-Firefox Tests-2] INFO  core.base.BaseTest - Starting test | Browser: firefox | Headless: false
-2026-05-07 22:35:32 [TestNG-test-Firefox Tests-3] INFO  io.github.bonigarcia.wdm.WebDriverManager - Reading https://raw.githubusercontent.com/bonigarcia/webdrivermanager/master/docs/mirror/geckodriver to seek geckodriver
-2026-05-07 22:35:32 [TestNG-test-Firefox Tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Reading https://raw.githubusercontent.com/bonigarcia/webdrivermanager/master/docs/mirror/geckodriver to seek geckodriver
-2026-05-07 22:35:32 [TestNG-test-Firefox Tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Reading https://raw.githubusercontent.com/bonigarcia/webdrivermanager/master/docs/mirror/geckodriver to seek geckodriver
-2026-05-07 22:35:33 [TestNG-test-Firefox Tests-1] INFO  io.github.bonigarcia.wdm.online.Downloader - Downloading https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-win64.zip
-2026-05-07 22:35:33 [TestNG-test-Firefox Tests-2] INFO  io.github.bonigarcia.wdm.online.Downloader - Downloading https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-win64.zip
-2026-05-07 22:35:33 [TestNG-test-Firefox Tests-3] INFO  io.github.bonigarcia.wdm.online.Downloader - Downloading https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-win64.zip
-2026-05-07 22:35:41 [TestNG-test-Firefox Tests-2] INFO  io.github.bonigarcia.wdm.online.Downloader - Extracting driver from compressed file geckodriver-v0.36.0-win64.zip
-2026-05-07 22:35:41 [TestNG-test-Firefox Tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\fazil\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
-2026-05-07 22:35:42 [TestNG-test-Firefox Tests-2] INFO  listeners.TestListener - ▶ TEST START: testInvalidLogin
-2026-05-07 22:35:42 [TestNG-test-Firefox Tests-2] WARN  listeners.TestListener - ⏭ TEST SKIPPED: testInvalidLogin
-2026-05-07 22:35:42 [TestNG-test-Firefox Tests-2] ERROR core.base.BaseTest - Test FAILED: testInvalidLogin
-2026-05-07 22:35:45 [TestNG-test-Firefox Tests-1] INFO  io.github.bonigarcia.wdm.online.Downloader - Extracting driver from compressed file geckodriver-v0.36.0-win64.zip
-2026-05-07 22:35:45 [TestNG-test-Firefox Tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\fazil\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
-2026-05-07 22:35:45 [TestNG-test-Firefox Tests-1] INFO  listeners.TestListener - ▶ TEST START: testValidLogin
-2026-05-07 22:35:45 [TestNG-test-Firefox Tests-1] WARN  listeners.TestListener - ⏭ TEST SKIPPED: testValidLogin
-2026-05-07 22:35:45 [TestNG-test-Firefox Tests-1] ERROR core.base.BaseTest - Test FAILED: testValidLogin
-2026-05-07 22:35:47 [TestNG-test-Firefox Tests-3] INFO  io.github.bonigarcia.wdm.online.Downloader - Extracting driver from compressed file geckodriver-v0.36.0-win64.zip
-2026-05-07 22:35:47 [TestNG-test-Firefox Tests-3] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\fazil\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
-2026-05-07 22:35:47 [TestNG-test-Firefox Tests-3] INFO  listeners.TestListener - ▶ TEST START: testE2ECheckoutFlow
-2026-05-07 22:35:47 [TestNG-test-Firefox Tests-3] WARN  listeners.TestListener - ⏭ TEST SKIPPED: testE2ECheckoutFlow
-2026-05-07 22:35:47 [TestNG-test-Firefox Tests-3] ERROR core.base.BaseTest - Test FAILED: testE2ECheckoutFlow
-2026-05-07 22:35:47 [TestNG-test-Edge Tests-1] INFO  core.base.BaseTest - Starting test | Browser: edge | Headless: false
-2026-05-07 22:35:47 [TestNG-test-Edge Tests-3] INFO  core.base.BaseTest - Starting test | Browser: edge | Headless: false
-2026-05-07 22:35:47 [TestNG-test-Edge Tests-2] INFO  core.base.BaseTest - Starting test | Browser: edge | Headless: false
-2026-05-07 22:35:47 [TestNG-test-Edge Tests-3] WARN  io.github.bonigarcia.wdm.versions.VersionDetector - Exception reading https://msedgedriver.azureedge.net/LATEST_RELEASE_147_WINDOWS to get latest version of msedgedriver (No such host is known (msedgedriver.azureedge.net))
-2026-05-07 22:35:47 [TestNG-test-Edge Tests-1] WARN  io.github.bonigarcia.wdm.versions.VersionDetector - Exception reading https://msedgedriver.azureedge.net/LATEST_RELEASE_147_WINDOWS to get latest version of msedgedriver (msedgedriver.azureedge.net)
-2026-05-07 22:35:47 [TestNG-test-Edge Tests-2] WARN  io.github.bonigarcia.wdm.versions.VersionDetector - Exception reading https://msedgedriver.azureedge.net/LATEST_RELEASE_147_WINDOWS to get latest version of msedgedriver (msedgedriver.azureedge.net)
-2026-05-07 22:35:47 [TestNG-test-Edge Tests-1] WARN  io.github.bonigarcia.wdm.versions.VersionDetector - Exception reading https://msedgedriver.azureedge.net/LATEST_STABLE to get latest version of msedgedriver (msedgedriver.azureedge.net)
-2026-05-07 22:35:47 [TestNG-test-Edge Tests-2] WARN  io.github.bonigarcia.wdm.versions.VersionDetector - Exception reading https://msedgedriver.azureedge.net/LATEST_STABLE to get latest version of msedgedriver (msedgedriver.azureedge.net)
-2026-05-07 22:35:47 [TestNG-test-Edge Tests-3] WARN  io.github.bonigarcia.wdm.versions.VersionDetector - Exception reading https://msedgedriver.azureedge.net/LATEST_STABLE to get latest version of msedgedriver (msedgedriver.azureedge.net)
-2026-05-07 22:35:47 [TestNG-test-Edge Tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Reading https://msedgedriver.azureedge.net/?restype=container&comp=list to seek msedgedriver
-2026-05-07 22:35:47 [TestNG-test-Edge Tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Reading https://msedgedriver.azureedge.net/?restype=container&comp=list to seek msedgedriver
-2026-05-07 22:35:47 [TestNG-test-Edge Tests-3] INFO  io.github.bonigarcia.wdm.WebDriverManager - Reading https://msedgedriver.azureedge.net/?restype=container&comp=list to seek msedgedriver
-2026-05-07 22:35:47 [TestNG-test-Edge Tests-1] WARN  io.github.bonigarcia.wdm.WebDriverManager - There was an error managing msedgedriver (latest version) (java.net.UnknownHostException: msedgedriver.azureedge.net) ... trying again using latest driver stored in cache
-2026-05-07 22:35:47 [TestNG-test-Edge Tests-2] WARN  io.github.bonigarcia.wdm.WebDriverManager - There was an error managing msedgedriver (latest version) (java.net.UnknownHostException: msedgedriver.azureedge.net) ... trying again using latest driver stored in cache
-2026-05-07 22:35:47 [TestNG-test-Edge Tests-3] WARN  io.github.bonigarcia.wdm.WebDriverManager - There was an error managing msedgedriver (latest version) (java.net.UnknownHostException: msedgedriver.azureedge.net) ... trying again using latest driver stored in cache
-2026-05-07 22:35:47 [TestNG-test-Edge Tests-1] WARN  io.github.bonigarcia.wdm.versions.VersionDetector - Exception reading https://msedgedriver.azureedge.net/LATEST_STABLE to get latest version of msedgedriver (msedgedriver.azureedge.net)
-2026-05-07 22:35:47 [TestNG-test-Edge Tests-2] WARN  io.github.bonigarcia.wdm.versions.VersionDetector - Exception reading https://msedgedriver.azureedge.net/LATEST_STABLE to get latest version of msedgedriver (msedgedriver.azureedge.net)
-2026-05-07 22:35:47 [TestNG-test-Edge Tests-3] WARN  io.github.bonigarcia.wdm.versions.VersionDetector - Exception reading https://msedgedriver.azureedge.net/LATEST_STABLE to get latest version of msedgedriver (msedgedriver.azureedge.net)
-2026-05-07 22:35:47 [TestNG-test-Edge Tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Reading https://msedgedriver.azureedge.net/?restype=container&comp=list to seek msedgedriver
-2026-05-07 22:35:47 [TestNG-test-Edge Tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Reading https://msedgedriver.azureedge.net/?restype=container&comp=list to seek msedgedriver
-2026-05-07 22:35:47 [TestNG-test-Edge Tests-3] INFO  io.github.bonigarcia.wdm.WebDriverManager - Reading https://msedgedriver.azureedge.net/?restype=container&comp=list to seek msedgedriver
-2026-05-07 22:35:47 [TestNG-test-Edge Tests-1] ERROR io.github.bonigarcia.wdm.WebDriverManager - There was an error managing msedgedriver (latest version) (java.net.UnknownHostException: msedgedriver.azureedge.net)
-io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: msedgedriver.azureedge.net
-	at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromXml(WebDriverManager.java:1588) ~[webdrivermanager-5.8.0.jar:?]
-	at io.github.bonigarcia.wdm.managers.EdgeDriverManager.getDriverUrls(EdgeDriverManager.java:115) ~[webdrivermanager-5.8.0.jar:?]
-	at io.github.bonigarcia.wdm.WebDriverManager.createUrlHandler(WebDriverManager.java:1442) ~[webdrivermanager-5.8.0.jar:?]
-	at io.github.bonigarcia.wdm.WebDriverManager.download(WebDriverManager.java:1268) ~[webdrivermanager-5.8.0.jar:?]
-	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1184) ~[webdrivermanager-5.8.0.jar:?]
-	at io.github.bonigarcia.wdm.WebDriverManager.fallback(WebDriverManager.java:1437) ~[webdrivermanager-5.8.0.jar:?]
-	at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1415) ~[webdrivermanager-5.8.0.jar:?]
-	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1190) ~[webdrivermanager-5.8.0.jar:?]
-	at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:427) ~[webdrivermanager-5.8.0.jar:?]
-	at core.driver.DriverFactory.createEdgeDriver(DriverFactory.java:85) ~[classes/:?]
-	at core.driver.DriverFactory.createDriver(DriverFactory.java:27) ~[classes/:?]
-	at core.base.BaseTest.setUp(BaseTest.java:44) ~[classes/:?]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
-	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22) ~[testng-7.10.2.jar:7.10.2]
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-Caused by: java.net.UnknownHostException: msedgedriver.azureedge.net
-	at java.base/java.net.InetAddress$CachedLookup.get(InetAddress.java:988) ~[?:?]
-	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1818) ~[?:?]
-	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1688) ~[?:?]
-	at org.apache.hc.client5.http.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:43) ~[httpclient5-5.2.1.jar:5.2.1]
-	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141) ~[httpclient5-5.2.1.jar:5.2.1]
-	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:447) ~[httpclient5-5.2.1.jar:5.2.1]
-	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:162) ~[httpclient5-5.2.1.jar:5.2.1]
-	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:172) ~[httpclient5-5.2.1.jar:5.2.1]
-	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:142) ~[httpclient5-5.2.1.jar:5.2.1]
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.2.1.jar:5.2.1]
-	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192) ~[httpclient5-5.2.1.jar:5.2.1]
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.2.1.jar:5.2.1]
-	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96) ~[httpclient5-5.2.1.jar:5.2.1]
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.2.1.jar:5.2.1]
-	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:152) ~[httpclient5-5.2.1.jar:5.2.1]
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.2.1.jar:5.2.1]
-	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115) ~[httpclient5-5.2.1.jar:5.2.1]
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.2.1.jar:5.2.1]
-	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170) ~[httpclient5-5.2.1.jar:5.2.1]
-	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87) ~[httpclient5-5.2.1.jar:5.2.1]
-	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55) ~[httpclient5-5.2.1.jar:5.2.1]
-	at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183) ~[httpclient5-5.2.1.jar:5.2.1]
-	at io.github.bonigarcia.wdm.online.HttpClient.execute(HttpClient.java:157) ~[webdrivermanager-5.8.0.jar:?]
-	at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromXml(WebDriverManager.java:1573) ~[webdrivermanager-5.8.0.jar:?]
-	... 31 more
-2026-05-07 22:35:47 [TestNG-test-Edge Tests-3] ERROR io.github.bonigarcia.wdm.WebDriverManager - There was an error managing msedgedriver (latest version) (java.net.UnknownHostException: msedgedriver.azureedge.net)
-io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: msedgedriver.azureedge.net
-	at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromXml(WebDriverManager.java:1588) ~[webdrivermanager-5.8.0.jar:?]
-	at io.github.bonigarcia.wdm.managers.EdgeDriverManager.getDriverUrls(EdgeDriverManager.java:115) ~[webdrivermanager-5.8.0.jar:?]
-	at io.github.bonigarcia.wdm.WebDriverManager.createUrlHandler(WebDriverManager.java:1442) ~[webdrivermanager-5.8.0.jar:?]
-	at io.github.bonigarcia.wdm.WebDriverManager.download(WebDriverManager.java:1268) ~[webdrivermanager-5.8.0.jar:?]
-	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1184) ~[webdrivermanager-5.8.0.jar:?]
-	at io.github.bonigarcia.wdm.WebDriverManager.fallback(WebDriverManager.java:1437) ~[webdrivermanager-5.8.0.jar:?]
-	at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1415) ~[webdrivermanager-5.8.0.jar:?]
-	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1190) ~[webdrivermanager-5.8.0.jar:?]
-	at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:427) ~[webdrivermanager-5.8.0.jar:?]
-	at core.driver.DriverFactory.createEdgeDriver(DriverFactory.java:85) ~[classes/:?]
-	at core.driver.DriverFactory.createDriver(DriverFactory.java:27) ~[classes/:?]
-	at core.base.BaseTest.setUp(BaseTest.java:44) ~[classes/:?]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
-	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22) ~[testng-7.10.2.jar:7.10.2]
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-Caused by: java.net.UnknownHostException: msedgedriver.azureedge.net
-	at java.base/java.net.InetAddress$CachedLookup.get(InetAddress.java:988) ~[?:?]
-	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1818) ~[?:?]
-	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1688) ~[?:?]
-	at org.apache.hc.client5.http.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:43) ~[httpclient5-5.2.1.jar:5.2.1]
-	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141) ~[httpclient5-5.2.1.jar:5.2.1]
-	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:447) ~[httpclient5-5.2.1.jar:5.2.1]
-	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:162) ~[httpclient5-5.2.1.jar:5.2.1]
-	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:172) ~[httpclient5-5.2.1.jar:5.2.1]
-	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:142) ~[httpclient5-5.2.1.jar:5.2.1]
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.2.1.jar:5.2.1]
-	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192) ~[httpclient5-5.2.1.jar:5.2.1]
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.2.1.jar:5.2.1]
-	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96) ~[httpclient5-5.2.1.jar:5.2.1]
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.2.1.jar:5.2.1]
-	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:152) ~[httpclient5-5.2.1.jar:5.2.1]
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.2.1.jar:5.2.1]
-	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115) ~[httpclient5-5.2.1.jar:5.2.1]
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.2.1.jar:5.2.1]
-	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170) ~[httpclient5-5.2.1.jar:5.2.1]
-	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87) ~[httpclient5-5.2.1.jar:5.2.1]
-	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55) ~[httpclient5-5.2.1.jar:5.2.1]
-	at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183) ~[httpclient5-5.2.1.jar:5.2.1]
-	at io.github.bonigarcia.wdm.online.HttpClient.execute(HttpClient.java:157) ~[webdrivermanager-5.8.0.jar:?]
-	at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromXml(WebDriverManager.java:1573) ~[webdrivermanager-5.8.0.jar:?]
-	... 31 more
-2026-05-07 22:35:47 [TestNG-test-Edge Tests-2] ERROR io.github.bonigarcia.wdm.WebDriverManager - There was an error managing msedgedriver (latest version) (java.net.UnknownHostException: msedgedriver.azureedge.net)
-io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: msedgedriver.azureedge.net
-	at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromXml(WebDriverManager.java:1588) ~[webdrivermanager-5.8.0.jar:?]
-	at io.github.bonigarcia.wdm.managers.EdgeDriverManager.getDriverUrls(EdgeDriverManager.java:115) ~[webdrivermanager-5.8.0.jar:?]
-	at io.github.bonigarcia.wdm.WebDriverManager.createUrlHandler(WebDriverManager.java:1442) ~[webdrivermanager-5.8.0.jar:?]
-	at io.github.bonigarcia.wdm.WebDriverManager.download(WebDriverManager.java:1268) ~[webdrivermanager-5.8.0.jar:?]
-	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1184) ~[webdrivermanager-5.8.0.jar:?]
-	at io.github.bonigarcia.wdm.WebDriverManager.fallback(WebDriverManager.java:1437) ~[webdrivermanager-5.8.0.jar:?]
-	at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1415) ~[webdrivermanager-5.8.0.jar:?]
-	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1190) ~[webdrivermanager-5.8.0.jar:?]
-	at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:427) ~[webdrivermanager-5.8.0.jar:?]
-	at core.driver.DriverFactory.createEdgeDriver(DriverFactory.java:85) ~[classes/:?]
-	at core.driver.DriverFactory.createDriver(DriverFactory.java:27) ~[classes/:?]
-	at core.base.BaseTest.setUp(BaseTest.java:44) ~[classes/:?]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
-	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22) ~[testng-7.10.2.jar:7.10.2]
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-Caused by: java.net.UnknownHostException: msedgedriver.azureedge.net
-	at java.base/java.net.InetAddress$CachedLookup.get(InetAddress.java:988) ~[?:?]
-	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1818) ~[?:?]
-	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1688) ~[?:?]
-	at org.apache.hc.client5.http.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:43) ~[httpclient5-5.2.1.jar:5.2.1]
-	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141) ~[httpclient5-5.2.1.jar:5.2.1]
-	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:447) ~[httpclient5-5.2.1.jar:5.2.1]
-	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:162) ~[httpclient5-5.2.1.jar:5.2.1]
-	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:172) ~[httpclient5-5.2.1.jar:5.2.1]
-	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:142) ~[httpclient5-5.2.1.jar:5.2.1]
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.2.1.jar:5.2.1]
-	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192) ~[httpclient5-5.2.1.jar:5.2.1]
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.2.1.jar:5.2.1]
-	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96) ~[httpclient5-5.2.1.jar:5.2.1]
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.2.1.jar:5.2.1]
-	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:152) ~[httpclient5-5.2.1.jar:5.2.1]
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.2.1.jar:5.2.1]
-	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115) ~[httpclient5-5.2.1.jar:5.2.1]
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.2.1.jar:5.2.1]
-	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170) ~[httpclient5-5.2.1.jar:5.2.1]
-	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87) ~[httpclient5-5.2.1.jar:5.2.1]
-	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55) ~[httpclient5-5.2.1.jar:5.2.1]
-	at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183) ~[httpclient5-5.2.1.jar:5.2.1]
-	at io.github.bonigarcia.wdm.online.HttpClient.execute(HttpClient.java:157) ~[webdrivermanager-5.8.0.jar:?]
-	at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromXml(WebDriverManager.java:1573) ~[webdrivermanager-5.8.0.jar:?]
-	... 31 more
-2026-05-07 22:35:47 [TestNG-test-Edge Tests-1] INFO  listeners.TestListener - ▶ TEST START: testValidLogin
-2026-05-07 22:35:47 [TestNG-test-Edge Tests-3] INFO  listeners.TestListener - ▶ TEST START: testE2ECheckoutFlow
-2026-05-07 22:35:47 [TestNG-test-Edge Tests-2] INFO  listeners.TestListener - ▶ TEST START: testInvalidLogin
-2026-05-07 22:35:47 [TestNG-test-Edge Tests-3] WARN  listeners.TestListener - ⏭ TEST SKIPPED: testE2ECheckoutFlow
-2026-05-07 22:35:47 [TestNG-test-Edge Tests-2] WARN  listeners.TestListener - ⏭ TEST SKIPPED: testInvalidLogin
-2026-05-07 22:35:47 [TestNG-test-Edge Tests-1] WARN  listeners.TestListener - ⏭ TEST SKIPPED: testValidLogin
-2026-05-07 22:35:47 [TestNG-test-Edge Tests-1] ERROR core.base.BaseTest - Test FAILED: testValidLogin
-2026-05-07 22:35:47 [TestNG-test-Edge Tests-2] ERROR core.base.BaseTest - Test FAILED: testInvalidLogin
-2026-05-07 22:35:47 [TestNG-test-Edge Tests-3] ERROR core.base.BaseTest - Test FAILED: testE2ECheckoutFlow
-2026-05-07 22:35:47 [main] INFO  core.base.BaseTest - === Test Suite Complete ===
-2026-05-07 22:35:47 [main] INFO  listeners.TestListener - === SUITE FINISHED: Cross Browser Smoke Suite ===
+2026-05-07 23:11:34 [main] INFO  core.config.ConfigManager - ConfigManager initialized for environment: dev
+2026-05-07 23:11:34 [main] INFO  listeners.TestListener - === SUITE STARTED: Cross Browser Smoke Suite ===
+2026-05-07 23:11:34 [main] INFO  core.base.BaseTest - === Test Suite Starting ===
+2026-05-07 23:11:34 [TestNG-tests-1] INFO  core.base.BaseTest - Starting test | Browser: chrome | Headless: false
+2026-05-07 23:11:34 [TestNG-tests-2] INFO  core.base.BaseTest - Starting test | Browser: chrome | Headless: false
+2026-05-07 23:11:34 [TestNG-tests-3] INFO  core.base.BaseTest - Starting test | Browser: chrome | Headless: false
+2026-05-07 23:11:35 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 147.0.7727.117 (resolved driver for Chrome 147)
+2026-05-07 23:11:35 [TestNG-tests-3] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 147.0.7727.117 (resolved driver for Chrome 147)
+2026-05-07 23:11:35 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 147.0.7727.117 (resolved driver for Chrome 147)
+2026-05-07 23:11:35 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\fazil\.cache\selenium\chromedriver\win64\147.0.7727.117\chromedriver.exe
+2026-05-07 23:11:35 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\fazil\.cache\selenium\chromedriver\win64\147.0.7727.117\chromedriver.exe
+2026-05-07 23:11:35 [TestNG-tests-3] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\fazil\.cache\selenium\chromedriver\win64\147.0.7727.117\chromedriver.exe
+2026-05-07 23:11:40 [TestNG-tests-3] INFO  listeners.TestListener - ▶ TEST START: testValidLogin
+2026-05-07 23:11:40 [TestNG-tests-2] INFO  listeners.TestListener - ▶ TEST START: testValidLogin
+2026-05-07 23:11:40 [TestNG-tests-1] INFO  listeners.TestListener - ▶ TEST START: testValidLogin
+2026-05-07 23:11:41 [TestNG-tests-3] INFO  listeners.TestListener - ✅ TEST PASSED: testValidLogin
+2026-05-07 23:11:41 [TestNG-tests-2] INFO  listeners.TestListener - ✅ TEST PASSED: testValidLogin
+2026-05-07 23:11:41 [TestNG-tests-1] INFO  listeners.TestListener - ✅ TEST PASSED: testValidLogin
+2026-05-07 23:11:42 [TestNG-tests-3] INFO  core.base.BaseTest - Driver closed for thread: 48
+2026-05-07 23:11:42 [TestNG-tests-3] INFO  core.base.BaseTest - Starting test | Browser: chrome | Headless: false
+2026-05-07 23:11:42 [TestNG-tests-3] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 147.0.7727.117 (resolved driver for Chrome 147)
+2026-05-07 23:11:42 [TestNG-tests-3] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\fazil\.cache\selenium\chromedriver\win64\147.0.7727.117\chromedriver.exe
+2026-05-07 23:11:42 [TestNG-tests-2] INFO  core.base.BaseTest - Driver closed for thread: 47
+2026-05-07 23:11:42 [TestNG-tests-2] INFO  core.base.BaseTest - Starting test | Browser: chrome | Headless: false
+2026-05-07 23:11:42 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 147.0.7727.117 (resolved driver for Chrome 147)
+2026-05-07 23:11:42 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\fazil\.cache\selenium\chromedriver\win64\147.0.7727.117\chromedriver.exe
+2026-05-07 23:11:42 [TestNG-tests-1] INFO  core.base.BaseTest - Driver closed for thread: 46
+2026-05-07 23:11:42 [TestNG-tests-1] INFO  core.base.BaseTest - Starting test | Browser: chrome | Headless: false
+2026-05-07 23:11:42 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 147.0.7727.117 (resolved driver for Chrome 147)
+2026-05-07 23:11:42 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\fazil\.cache\selenium\chromedriver\win64\147.0.7727.117\chromedriver.exe
+2026-05-07 23:11:46 [TestNG-tests-1] INFO  listeners.TestListener - ▶ TEST START: testInvalidLogin
+2026-05-07 23:11:47 [TestNG-tests-1] INFO  listeners.TestListener - ✅ TEST PASSED: testInvalidLogin
+2026-05-07 23:11:47 [TestNG-tests-3] INFO  listeners.TestListener - ▶ TEST START: testInvalidLogin
+2026-05-07 23:11:47 [TestNG-tests-2] INFO  listeners.TestListener - ▶ TEST START: testInvalidLogin
+2026-05-07 23:11:48 [TestNG-tests-1] INFO  core.base.BaseTest - Driver closed for thread: 46
+2026-05-07 23:11:48 [TestNG-tests-1] INFO  core.base.BaseTest - Starting test | Browser: chrome | Headless: false
+2026-05-07 23:11:48 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 147.0.7727.117 (resolved driver for Chrome 147)
+2026-05-07 23:11:48 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\fazil\.cache\selenium\chromedriver\win64\147.0.7727.117\chromedriver.exe
+2026-05-07 23:11:48 [TestNG-tests-3] INFO  listeners.TestListener - ✅ TEST PASSED: testInvalidLogin
+2026-05-07 23:11:49 [TestNG-tests-3] INFO  core.base.BaseTest - Driver closed for thread: 48
+2026-05-07 23:11:49 [TestNG-tests-3] INFO  core.base.BaseTest - Starting test | Browser: chrome | Headless: false
+2026-05-07 23:11:49 [TestNG-tests-3] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 147.0.7727.117 (resolved driver for Chrome 147)
+2026-05-07 23:11:49 [TestNG-tests-3] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\fazil\.cache\selenium\chromedriver\win64\147.0.7727.117\chromedriver.exe
+2026-05-07 23:11:49 [TestNG-tests-2] INFO  listeners.TestListener - ✅ TEST PASSED: testInvalidLogin
+2026-05-07 23:11:49 [TestNG-tests-2] INFO  core.base.BaseTest - Driver closed for thread: 47
+2026-05-07 23:11:49 [TestNG-tests-2] INFO  core.base.BaseTest - Starting test | Browser: chrome | Headless: false
+2026-05-07 23:11:49 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 147.0.7727.117 (resolved driver for Chrome 147)
+2026-05-07 23:11:49 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\fazil\.cache\selenium\chromedriver\win64\147.0.7727.117\chromedriver.exe
+2026-05-07 23:11:50 [TestNG-tests-1] INFO  listeners.TestListener - ▶ TEST START: testE2ECheckoutFlow
+2026-05-07 23:11:52 [TestNG-tests-3] INFO  listeners.TestListener - ▶ TEST START: testE2ECheckoutFlow
+2026-05-07 23:11:53 [TestNG-tests-2] INFO  listeners.TestListener - ▶ TEST START: testE2ECheckoutFlow
+2026-05-07 23:12:00 [TestNG-tests-1] INFO  listeners.TestListener - ✅ TEST PASSED: testE2ECheckoutFlow
+2026-05-07 23:12:01 [TestNG-tests-3] INFO  listeners.TestListener - ✅ TEST PASSED: testE2ECheckoutFlow
+2026-05-07 23:12:01 [TestNG-tests-1] INFO  core.base.BaseTest - Driver closed for thread: 46
+2026-05-07 23:12:02 [TestNG-tests-3] INFO  core.base.BaseTest - Driver closed for thread: 48
+2026-05-07 23:12:02 [TestNG-tests-2] INFO  listeners.TestListener - ✅ TEST PASSED: testE2ECheckoutFlow
+2026-05-07 23:12:02 [TestNG-tests-2] INFO  core.base.BaseTest - Driver closed for thread: 47
+2026-05-07 23:12:02 [main] INFO  core.base.BaseTest - === Test Suite Complete ===
+2026-05-07 23:12:02 [main] INFO  listeners.TestListener - === SUITE FINISHED: Cross Browser Smoke Suite ===
