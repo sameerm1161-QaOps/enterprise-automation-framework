@@ -3,6 +3,7 @@ package core.base;
 import core.config.ConfigManager;
 import core.driver.DriverFactory;
 import core.driver.DriverManager;
+import core.driver.HealingDriverFactory;
 import listeners.RetryAnalyzer;
 import io.qameta.allure.Step;
 import org.openqa.selenium.WebDriver;
@@ -37,11 +38,21 @@ public abstract class BaseTest {
         boolean isHeadless = Boolean.parseBoolean(
                 System.getProperty("headless", headless)
         );
-        String gridUrl = config.get("selenium.grid.url", "");
+        boolean healingEnabled = Boolean.parseBoolean(
+                config.get("healing.enabled", "false")
+        );
 
-        log.info("Starting test | Browser: {} | Headless: {}", resolvedBrowser, isHeadless);
+        log.info("Browser: {} | Headless: {} | Healing: {}",
+                resolvedBrowser, isHeadless, healingEnabled);
 
-        WebDriver driver = DriverFactory.createDriver(resolvedBrowser, isHeadless, gridUrl);
+        WebDriver driver;
+        if (healingEnabled) {
+            driver = HealingDriverFactory.createHealingDriver(resolvedBrowser, isHeadless);
+        } else {
+            driver = DriverFactory.createDriver(resolvedBrowser, isHeadless,
+                    config.get("selenium.grid.url", ""));
+        }
+
         DriverManager.setDriver(driver);
         driver.get(config.get("base.url"));
     }

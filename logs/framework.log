@@ -1,59 +1,59 @@
-2026-05-07 23:11:34 [main] INFO  core.config.ConfigManager - ConfigManager initialized for environment: dev
-2026-05-07 23:11:34 [main] INFO  listeners.TestListener - === SUITE STARTED: Cross Browser Smoke Suite ===
-2026-05-07 23:11:34 [main] INFO  core.base.BaseTest - === Test Suite Starting ===
-2026-05-07 23:11:34 [TestNG-tests-1] INFO  core.base.BaseTest - Starting test | Browser: chrome | Headless: false
-2026-05-07 23:11:34 [TestNG-tests-2] INFO  core.base.BaseTest - Starting test | Browser: chrome | Headless: false
-2026-05-07 23:11:34 [TestNG-tests-3] INFO  core.base.BaseTest - Starting test | Browser: chrome | Headless: false
-2026-05-07 23:11:35 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 147.0.7727.117 (resolved driver for Chrome 147)
-2026-05-07 23:11:35 [TestNG-tests-3] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 147.0.7727.117 (resolved driver for Chrome 147)
-2026-05-07 23:11:35 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 147.0.7727.117 (resolved driver for Chrome 147)
-2026-05-07 23:11:35 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\fazil\.cache\selenium\chromedriver\win64\147.0.7727.117\chromedriver.exe
-2026-05-07 23:11:35 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\fazil\.cache\selenium\chromedriver\win64\147.0.7727.117\chromedriver.exe
-2026-05-07 23:11:35 [TestNG-tests-3] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\fazil\.cache\selenium\chromedriver\win64\147.0.7727.117\chromedriver.exe
-2026-05-07 23:11:40 [TestNG-tests-3] INFO  listeners.TestListener - ▶ TEST START: testValidLogin
-2026-05-07 23:11:40 [TestNG-tests-2] INFO  listeners.TestListener - ▶ TEST START: testValidLogin
-2026-05-07 23:11:40 [TestNG-tests-1] INFO  listeners.TestListener - ▶ TEST START: testValidLogin
-2026-05-07 23:11:41 [TestNG-tests-3] INFO  listeners.TestListener - ✅ TEST PASSED: testValidLogin
-2026-05-07 23:11:41 [TestNG-tests-2] INFO  listeners.TestListener - ✅ TEST PASSED: testValidLogin
-2026-05-07 23:11:41 [TestNG-tests-1] INFO  listeners.TestListener - ✅ TEST PASSED: testValidLogin
-2026-05-07 23:11:42 [TestNG-tests-3] INFO  core.base.BaseTest - Driver closed for thread: 48
-2026-05-07 23:11:42 [TestNG-tests-3] INFO  core.base.BaseTest - Starting test | Browser: chrome | Headless: false
-2026-05-07 23:11:42 [TestNG-tests-3] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 147.0.7727.117 (resolved driver for Chrome 147)
-2026-05-07 23:11:42 [TestNG-tests-3] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\fazil\.cache\selenium\chromedriver\win64\147.0.7727.117\chromedriver.exe
-2026-05-07 23:11:42 [TestNG-tests-2] INFO  core.base.BaseTest - Driver closed for thread: 47
-2026-05-07 23:11:42 [TestNG-tests-2] INFO  core.base.BaseTest - Starting test | Browser: chrome | Headless: false
-2026-05-07 23:11:42 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 147.0.7727.117 (resolved driver for Chrome 147)
-2026-05-07 23:11:42 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\fazil\.cache\selenium\chromedriver\win64\147.0.7727.117\chromedriver.exe
-2026-05-07 23:11:42 [TestNG-tests-1] INFO  core.base.BaseTest - Driver closed for thread: 46
-2026-05-07 23:11:42 [TestNG-tests-1] INFO  core.base.BaseTest - Starting test | Browser: chrome | Headless: false
-2026-05-07 23:11:42 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 147.0.7727.117 (resolved driver for Chrome 147)
-2026-05-07 23:11:42 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\fazil\.cache\selenium\chromedriver\win64\147.0.7727.117\chromedriver.exe
-2026-05-07 23:11:46 [TestNG-tests-1] INFO  listeners.TestListener - ▶ TEST START: testInvalidLogin
-2026-05-07 23:11:47 [TestNG-tests-1] INFO  listeners.TestListener - ✅ TEST PASSED: testInvalidLogin
-2026-05-07 23:11:47 [TestNG-tests-3] INFO  listeners.TestListener - ▶ TEST START: testInvalidLogin
-2026-05-07 23:11:47 [TestNG-tests-2] INFO  listeners.TestListener - ▶ TEST START: testInvalidLogin
-2026-05-07 23:11:48 [TestNG-tests-1] INFO  core.base.BaseTest - Driver closed for thread: 46
-2026-05-07 23:11:48 [TestNG-tests-1] INFO  core.base.BaseTest - Starting test | Browser: chrome | Headless: false
-2026-05-07 23:11:48 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 147.0.7727.117 (resolved driver for Chrome 147)
-2026-05-07 23:11:48 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\fazil\.cache\selenium\chromedriver\win64\147.0.7727.117\chromedriver.exe
-2026-05-07 23:11:48 [TestNG-tests-3] INFO  listeners.TestListener - ✅ TEST PASSED: testInvalidLogin
-2026-05-07 23:11:49 [TestNG-tests-3] INFO  core.base.BaseTest - Driver closed for thread: 48
-2026-05-07 23:11:49 [TestNG-tests-3] INFO  core.base.BaseTest - Starting test | Browser: chrome | Headless: false
-2026-05-07 23:11:49 [TestNG-tests-3] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 147.0.7727.117 (resolved driver for Chrome 147)
-2026-05-07 23:11:49 [TestNG-tests-3] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\fazil\.cache\selenium\chromedriver\win64\147.0.7727.117\chromedriver.exe
-2026-05-07 23:11:49 [TestNG-tests-2] INFO  listeners.TestListener - ✅ TEST PASSED: testInvalidLogin
-2026-05-07 23:11:49 [TestNG-tests-2] INFO  core.base.BaseTest - Driver closed for thread: 47
-2026-05-07 23:11:49 [TestNG-tests-2] INFO  core.base.BaseTest - Starting test | Browser: chrome | Headless: false
-2026-05-07 23:11:49 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 147.0.7727.117 (resolved driver for Chrome 147)
-2026-05-07 23:11:49 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\fazil\.cache\selenium\chromedriver\win64\147.0.7727.117\chromedriver.exe
-2026-05-07 23:11:50 [TestNG-tests-1] INFO  listeners.TestListener - ▶ TEST START: testE2ECheckoutFlow
-2026-05-07 23:11:52 [TestNG-tests-3] INFO  listeners.TestListener - ▶ TEST START: testE2ECheckoutFlow
-2026-05-07 23:11:53 [TestNG-tests-2] INFO  listeners.TestListener - ▶ TEST START: testE2ECheckoutFlow
-2026-05-07 23:12:00 [TestNG-tests-1] INFO  listeners.TestListener - ✅ TEST PASSED: testE2ECheckoutFlow
-2026-05-07 23:12:01 [TestNG-tests-3] INFO  listeners.TestListener - ✅ TEST PASSED: testE2ECheckoutFlow
-2026-05-07 23:12:01 [TestNG-tests-1] INFO  core.base.BaseTest - Driver closed for thread: 46
-2026-05-07 23:12:02 [TestNG-tests-3] INFO  core.base.BaseTest - Driver closed for thread: 48
-2026-05-07 23:12:02 [TestNG-tests-2] INFO  listeners.TestListener - ✅ TEST PASSED: testE2ECheckoutFlow
-2026-05-07 23:12:02 [TestNG-tests-2] INFO  core.base.BaseTest - Driver closed for thread: 47
-2026-05-07 23:12:02 [main] INFO  core.base.BaseTest - === Test Suite Complete ===
-2026-05-07 23:12:02 [main] INFO  listeners.TestListener - === SUITE FINISHED: Cross Browser Smoke Suite ===
+2026-05-07 23:45:12 [main] INFO  core.config.ConfigManager - ConfigManager initialized for environment: dev
+2026-05-07 23:45:12 [main] INFO  listeners.TestListener - === SUITE STARTED: Cross Browser Smoke Suite ===
+2026-05-07 23:45:12 [main] INFO  core.base.BaseTest - === Test Suite Starting ===
+2026-05-07 23:45:12 [TestNG-tests-2] INFO  core.base.BaseTest - Browser: chrome | Headless: false | Healing: false
+2026-05-07 23:45:12 [TestNG-tests-1] INFO  core.base.BaseTest - Browser: chrome | Headless: false | Healing: false
+2026-05-07 23:45:12 [TestNG-tests-3] INFO  core.base.BaseTest - Browser: chrome | Headless: false | Healing: false
+2026-05-07 23:45:14 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 147.0.7727.117 (resolved driver for Chrome 147)
+2026-05-07 23:45:14 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 147.0.7727.117 (resolved driver for Chrome 147)
+2026-05-07 23:45:14 [TestNG-tests-3] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 147.0.7727.117 (resolved driver for Chrome 147)
+2026-05-07 23:45:14 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\fazil\.cache\selenium\chromedriver\win64\147.0.7727.117\chromedriver.exe
+2026-05-07 23:45:14 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\fazil\.cache\selenium\chromedriver\win64\147.0.7727.117\chromedriver.exe
+2026-05-07 23:45:14 [TestNG-tests-3] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\fazil\.cache\selenium\chromedriver\win64\147.0.7727.117\chromedriver.exe
+2026-05-07 23:45:19 [TestNG-tests-2] INFO  listeners.TestListener - ▶ TEST START: testValidLogin
+2026-05-07 23:45:19 [TestNG-tests-1] INFO  listeners.TestListener - ▶ TEST START: testValidLogin
+2026-05-07 23:45:19 [TestNG-tests-3] INFO  listeners.TestListener - ▶ TEST START: testValidLogin
+2026-05-07 23:45:20 [TestNG-tests-2] INFO  listeners.TestListener - ✅ TEST PASSED: testValidLogin
+2026-05-07 23:45:20 [TestNG-tests-1] INFO  listeners.TestListener - ✅ TEST PASSED: testValidLogin
+2026-05-07 23:45:20 [TestNG-tests-3] INFO  listeners.TestListener - ✅ TEST PASSED: testValidLogin
+2026-05-07 23:45:21 [TestNG-tests-2] INFO  core.base.BaseTest - Driver closed for thread: 49
+2026-05-07 23:45:21 [TestNG-tests-2] INFO  core.base.BaseTest - Browser: chrome | Headless: false | Healing: false
+2026-05-07 23:45:21 [TestNG-tests-3] INFO  core.base.BaseTest - Driver closed for thread: 50
+2026-05-07 23:45:21 [TestNG-tests-3] INFO  core.base.BaseTest - Browser: chrome | Headless: false | Healing: false
+2026-05-07 23:45:21 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 147.0.7727.117 (resolved driver for Chrome 147)
+2026-05-07 23:45:21 [TestNG-tests-3] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 147.0.7727.117 (resolved driver for Chrome 147)
+2026-05-07 23:45:21 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\fazil\.cache\selenium\chromedriver\win64\147.0.7727.117\chromedriver.exe
+2026-05-07 23:45:21 [TestNG-tests-3] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\fazil\.cache\selenium\chromedriver\win64\147.0.7727.117\chromedriver.exe
+2026-05-07 23:45:21 [TestNG-tests-1] INFO  core.base.BaseTest - Driver closed for thread: 48
+2026-05-07 23:45:21 [TestNG-tests-1] INFO  core.base.BaseTest - Browser: chrome | Headless: false | Healing: false
+2026-05-07 23:45:21 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 147.0.7727.117 (resolved driver for Chrome 147)
+2026-05-07 23:45:22 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\fazil\.cache\selenium\chromedriver\win64\147.0.7727.117\chromedriver.exe
+2026-05-07 23:45:24 [TestNG-tests-1] INFO  listeners.TestListener - ▶ TEST START: testInvalidLogin
+2026-05-07 23:45:24 [TestNG-tests-3] INFO  listeners.TestListener - ▶ TEST START: testInvalidLogin
+2026-05-07 23:45:25 [TestNG-tests-2] INFO  listeners.TestListener - ▶ TEST START: testInvalidLogin
+2026-05-07 23:45:25 [TestNG-tests-1] INFO  listeners.TestListener - ✅ TEST PASSED: testInvalidLogin
+2026-05-07 23:45:25 [TestNG-tests-3] INFO  listeners.TestListener - ✅ TEST PASSED: testInvalidLogin
+2026-05-07 23:45:25 [TestNG-tests-2] INFO  listeners.TestListener - ✅ TEST PASSED: testInvalidLogin
+2026-05-07 23:45:26 [TestNG-tests-1] INFO  core.base.BaseTest - Driver closed for thread: 48
+2026-05-07 23:45:26 [TestNG-tests-1] INFO  core.base.BaseTest - Browser: chrome | Headless: false | Healing: false
+2026-05-07 23:45:26 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 147.0.7727.117 (resolved driver for Chrome 147)
+2026-05-07 23:45:26 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\fazil\.cache\selenium\chromedriver\win64\147.0.7727.117\chromedriver.exe
+2026-05-07 23:45:26 [TestNG-tests-3] INFO  core.base.BaseTest - Driver closed for thread: 50
+2026-05-07 23:45:26 [TestNG-tests-3] INFO  core.base.BaseTest - Browser: chrome | Headless: false | Healing: false
+2026-05-07 23:45:26 [TestNG-tests-3] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 147.0.7727.117 (resolved driver for Chrome 147)
+2026-05-07 23:45:26 [TestNG-tests-3] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\fazil\.cache\selenium\chromedriver\win64\147.0.7727.117\chromedriver.exe
+2026-05-07 23:45:26 [TestNG-tests-2] INFO  core.base.BaseTest - Driver closed for thread: 49
+2026-05-07 23:45:26 [TestNG-tests-2] INFO  core.base.BaseTest - Browser: chrome | Headless: false | Healing: false
+2026-05-07 23:45:26 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 147.0.7727.117 (resolved driver for Chrome 147)
+2026-05-07 23:45:26 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\fazil\.cache\selenium\chromedriver\win64\147.0.7727.117\chromedriver.exe
+2026-05-07 23:45:29 [TestNG-tests-1] INFO  listeners.TestListener - ▶ TEST START: testE2ECheckoutFlow
+2026-05-07 23:45:29 [TestNG-tests-2] INFO  listeners.TestListener - ▶ TEST START: testE2ECheckoutFlow
+2026-05-07 23:45:29 [TestNG-tests-3] INFO  listeners.TestListener - ▶ TEST START: testE2ECheckoutFlow
+2026-05-07 23:45:38 [TestNG-tests-1] INFO  listeners.TestListener - ✅ TEST PASSED: testE2ECheckoutFlow
+2026-05-07 23:45:38 [TestNG-tests-3] INFO  listeners.TestListener - ✅ TEST PASSED: testE2ECheckoutFlow
+2026-05-07 23:45:39 [TestNG-tests-2] INFO  listeners.TestListener - ✅ TEST PASSED: testE2ECheckoutFlow
+2026-05-07 23:45:39 [TestNG-tests-1] INFO  core.base.BaseTest - Driver closed for thread: 48
+2026-05-07 23:45:39 [TestNG-tests-3] INFO  core.base.BaseTest - Driver closed for thread: 50
+2026-05-07 23:45:39 [TestNG-tests-2] INFO  core.base.BaseTest - Driver closed for thread: 49
+2026-05-07 23:45:39 [main] INFO  core.base.BaseTest - === Test Suite Complete ===
+2026-05-07 23:45:39 [main] INFO  listeners.TestListener - === SUITE FINISHED: Cross Browser Smoke Suite ===

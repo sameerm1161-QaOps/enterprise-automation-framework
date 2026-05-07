@@ -145,6 +145,20 @@
       <version>2.2.224</version>
       <scope>test</scope>
     </dependency>
+
+    <!-- Healenium -->
+    <dependency>
+      <groupId>com.epam.healenium</groupId>
+      <artifactId>healenium-web</artifactId>
+      <version>3.4.4</version>
+    </dependency>
+
+    <!-- Applitools -->
+    <dependency>
+      <groupId>com.applitools</groupId>
+      <artifactId>eyes-selenium-java5</artifactId>
+      <version>5.63.0</version>
+    </dependency>
   </dependencies>
 
   <build>
@@ -177,6 +191,13 @@
             <browser>${browser}</browser>
           </systemPropertyVariables>
         </configuration>
+        <dependencies>
+          <dependency>
+            <groupId>org.apache.maven.surefire</groupId>
+            <artifactId>surefire-testng</artifactId>
+            <version>3.2.5</version>
+          </dependency>
+        </dependencies>
       </plugin>
 
       <!-- Allure Maven -->
