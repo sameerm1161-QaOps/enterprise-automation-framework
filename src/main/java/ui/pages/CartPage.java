@@ -1,6 +1,6 @@
-package com.framework.ui.pages;
+package ui.pages;
 
-import com.framework.ui.base.BasePage;
+import ui.base.BasePage;
 import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 
