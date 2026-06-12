@@ -163,5 +163,5 @@ Every push to `main` triggers the pipeline:
 
 ## Author
 
-Fazil — Senior SDET
-LinkedIn: https://linkedin.com/in/your-profile
+Sameer M — Senior SDET
+LinkedIn: https://linkedin.com/in/sameermohd1161/
