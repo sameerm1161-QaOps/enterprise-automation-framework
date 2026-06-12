@@ -12,7 +12,7 @@ public class CartPage extends BasePage {
     private final By continueShopBtn  = By.cssSelector("[data-test='continue-shopping']");
     private final By removeBackpack   = By.cssSelector("[data-test='remove-sauce-labs-backpack']");
     private final By removebikeLight  = By.cssSelector("[data-test='remove-sauce-labs-bike-light']");
-    private final By itemName         = By.cssSelector(".inventory_item_name");
+    private final By itemName         = By.cssSelector(".inventory_item_name");F
     private final By itemPrice        = By.cssSelector(".inventory_item_price");
 
     @Step("Verify cart page loaded")
@@ -23,7 +23,7 @@ public class CartPage extends BasePage {
 
     @Step("Get cart items count")
     public int getCartItemsCount() {
-        return getDriver().findElements(cartItems).size();
+    return driver.findElements(cartItems).size();
     }
 
     @Step("Click checkout")
